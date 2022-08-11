@@ -59,6 +59,9 @@ const Sidebar = () => {
                     className={({ isActive }) =>
                       isActive ? activeLink : normalLink
                     }
+                    style={({ isActive }) => ({
+                      backgroundColor: isActive ? 'purple' : ''
+                    })}
                   >
                     {link.icon}
                     <span className="capitalize">{link.name}</span>
