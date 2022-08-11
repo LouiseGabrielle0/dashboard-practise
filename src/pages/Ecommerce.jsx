@@ -85,9 +85,8 @@ const Ecommerce = () => {
                 <p className="text-gray-500 mt-1">Budget</p>
                 <p>
                   <span className="text-3xl font-semibold">$43438</span>
-                  </p>
-                  <p className="text-gray-500 mt-1">Expense</p>
-                
+                </p>
+                <p className="text-gray-500 mt-1">Expense</p>
               </div>
               <div className="mt-5">
                 <SparkLine
@@ -100,6 +99,17 @@ const Ecommerce = () => {
                   color="purple"
                 />
               </div>
+              <div className="mt-10">
+                <Button
+                  color="white"
+                  bgColor="purple"
+                  text="Download Report"
+                  borderRadius="10px"
+                />
+              </div>
+            </div>
+            <div>
+              <Stacked width='320px' height='360' />
             </div>
           </div>
         </div>
