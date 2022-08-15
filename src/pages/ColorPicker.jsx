@@ -8,10 +8,10 @@ const ColorPicker = () => {
       args.currentValue.hex;
   };
   return (
-    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 md:m-10 mt-24 p-2 md:p-10 bg-white rounded-3xl dark:text-gray-200 dark:bg-main-dark-bg">
       <Header category="App" title="Colorpicker" />
-      <div className="text-center">
-        <div id="preview" />
+      <div className="text-center dark:bg-main-dark-bg">
+        <div id="preview"  />
         <div className="flex justify-center items-center gap-20 flex-wrap">
           <div>
             <p className="text-2xl font-semibold mt-2 mb-4">Inline Pallete</p>

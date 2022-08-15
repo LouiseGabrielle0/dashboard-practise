@@ -14,7 +14,7 @@ import { Header } from "../components";
 
 const Employees = () => {
   return (
-    <div className="m-2 md:m-10 p-20 md:p-10 bg-white rounded-3xl">
+    <div className="m-2 md:m-10 p-20 md:p-10 bg-white rounded-3xl dark:text-gray-200 dark:bg-main-dark-bg">
       <Header category="Page" title="Employees" />
       <GridComponent
         dataSource={employeesData}
